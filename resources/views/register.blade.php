@@ -1,5 +1,5 @@
 <x-layout>
-    <form action="{{ route('register') }}" method="POST">
+    <form action="{{ route('register.post') }}" method="POST">
         @csrf
         <h2> Register Account</h2>
         <div>
@@ -25,7 +25,7 @@
             <label>Phone Number 1</label>
             <input type="text" name="phone" required>
             <label>Phone Number 2</label>
-            <input type="text" name="phone" required>
+            <input type="text" name="phone2" required>
         </div>
         <div>
             <label>Password</label>
